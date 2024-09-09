@@ -1,4 +1,5 @@
 {
+  "homepage": "https://sayak23082002.github.io/Final_Year_Project_Deployment",
   "name": "my-webpack-project",
   "version": "1.0.0",
   "private": true,
@@ -29,6 +30,8 @@
   },
   "scripts": {
     "start": "react-scripts start",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
     "build": "webpack --mode=production --node-env=production",
     "test": "react-scripts test",
     "eject": "react-scripts eject",
@@ -56,7 +59,10 @@
     ]
   },
   "devDependencies": {
+    "@babel/core": "^7.25.2",
+    "@babel/preset-react": "^7.24.7",
     "@webpack-cli/generators": "^3.0.7",
+    "babel-loader": "^9.1.3",
     "dotenv": "^16.4.5",
     "gh-pages": "^6.1.1",
     "webpack-cli": "^5.1.4"
