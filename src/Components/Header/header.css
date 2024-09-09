@@ -1,0 +1,12 @@
+.header{
+    font-size: 40px;
+    font-weight: 700;
+    text-transform: uppercase;
+    padding: 12px 20px 20px;
+    letter-spacing: 12px;
+}
+
+.h{
+    display: flex;
+    flex-direction: row;
+}

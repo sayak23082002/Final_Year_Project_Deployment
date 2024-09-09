@@ -1,0 +1,52 @@
+.container {
+  margin: 20px 540px;
+  display: flex;
+  flex-direction: column;
+}
+
+.right-box {
+  width: auto;
+  border: 1px solid #286d34;
+  border-radius: 10px;
+}
+
+.main-image-box {
+  padding: 30px 0px;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.main-image {
+  height: 390px;
+  width: auto;
+}
+
+.details-box {
+  width: 100%;
+  padding: 50px;
+}
+
+.details-box h3 {
+  color: #286d34;
+}
+
+button {
+  border: none;
+  border-radius: 5px;
+  padding: 10px 15px;
+  background-color: #286d34;
+  color: white;
+  margin-top: 14px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: darkgreen;
+}
+
+.price {
+  font-size: 20px;
+  padding: 10px;
+}
